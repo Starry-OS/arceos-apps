@@ -25,3 +25,7 @@ exclude = [".arceos"]
 
 [workspace.dependencies]
 axstd = { git = "https://github.com/arceos-org/arceos.git" }
+
+[patch.crates-io]
+axbacktrace = { git = "https://github.com/Starry-OS/axbacktrace.git" }
+axcpu = { git = "https://github.com/Starry-OS/axcpu.git" }
